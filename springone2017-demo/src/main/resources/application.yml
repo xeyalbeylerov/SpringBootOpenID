@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+#    org.springframework.boot.autoconfigure: DEBUG
+
+spring:
+  thymeleaf:
+    cache: false
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 383491987212-dj7gfmejst5f7ebub6ffgnl9q6ku909g.apps.googleusercontent.com
+            client-secret:
+          facebook:
+            client-id: 309218286714596
+            client-secret:
